@@ -1,0 +1,8 @@
+# Cloudflare Web Analytics beacon token: public by design (it ships in every
+# page's HTML), so it is not a secret. Fingerprints for the current tree.
+go/privacy/index.html:generic-api-key:39
+go/receipt/index.html:generic-api-key:39
+go/ritual/index.html:generic-api-key:39
+index.html:generic-api-key:127
+scripts/verify-production.mjs:generic-api-key:24
+tests/campaign-paths.spec.js:generic-api-key:3
