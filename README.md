@@ -63,3 +63,7 @@ The code is released under the [MIT License](LICENSE).
 Product images, the hero and social images, and the marketing copy (product
 names and descriptions, site copy, and translations) are © Francesco Barbera,
 all rights reserved, unless stated otherwise.
+
+Product images were generated with
+[SDXL-Turbo](https://huggingface.co/stabilityai/sdxl-turbo), licensed under the
+Stability AI Community License. Powered by Stability AI.

@@ -1085,6 +1085,18 @@ main {
   }
 }
 
+.site-footer {
+  padding: 18px clamp(18px, 5vw, 64px);
+  border-top: 1px solid var(--line);
+  background: var(--shade-3);
+  color: var(--muted);
+  font-size: 0.85rem;
+
+  & p {
+    margin: 0;
+  }
+}
+
 /* Cart drawer ------------------------------------------------------------- */
 
 .cart-drawer {

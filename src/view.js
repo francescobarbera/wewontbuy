@@ -371,6 +371,10 @@ export function createView(state, { storageUnavailable = false } = {}) {
         </section>
       </main>
 
+      <footer class="site-footer">
+        <p>${t("footer.credits")}</p>
+      </footer>
+
       ${cartDrawer()}
       ${state.profileOpen ? profileModal() : ""}
       ${state.checkInOpen ? checkInModal() : ""}

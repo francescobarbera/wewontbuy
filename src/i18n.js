@@ -133,6 +133,9 @@ export const translations = {
       title: "This is a shopping simulator, not a store.",
       body: "Every item, balance, and receipt here is fictional. The goal is to let the impulse complete without turning into a real order.",
     },
+    footer: {
+      credits: "Product images generated with SDXL-Turbo. Powered by Stability AI.",
+    },
     faq: {
       aria: "Frequently asked questions",
       eyebrow: "FAQ",
@@ -457,6 +460,9 @@ export const translations = {
       eyebrow: "Nessun campo carta. Nessun trucco al pagamento.",
       title: "Questo è un simulatore di shopping, non un negozio.",
       body: "Ogni articolo, saldo e ricevuta qui è fittizio. L'obiettivo è lasciare che l'impulso si completi senza trasformarsi in un ordine reale.",
+    },
+    footer: {
+      credits: "Immagini dei prodotti generate con SDXL-Turbo. Powered by Stability AI.",
     },
     faq: {
       aria: "Domande frequenti",
@@ -783,6 +789,9 @@ export const translations = {
       title: "Das ist ein Shopping-Simulator, kein Shop.",
       body: "Jeder Artikel, jeder Saldo und jeder Beleg hier ist fiktiv. Ziel ist, den Impuls abzuschließen, ohne dass daraus eine echte Bestellung wird.",
     },
+    footer: {
+      credits: "Produktbilder mit SDXL-Turbo generiert. Powered by Stability AI.",
+    },
     faq: {
       aria: "Häufige Fragen",
       eyebrow: "FAQ",
@@ -1108,6 +1117,9 @@ export const translations = {
       title: "Esto es un simulador de compras, no una tienda.",
       body: "Cada artículo, saldo y recibo aquí es ficticio. El objetivo es dejar que el impulso termine sin convertirse en un pedido real.",
     },
+    footer: {
+      credits: "Imágenes de productos generadas con SDXL-Turbo. Powered by Stability AI.",
+    },
     faq: {
       aria: "Preguntas frecuentes",
       eyebrow: "FAQ",
@@ -1432,6 +1444,9 @@ export const translations = {
       eyebrow: "Aucun champ carte. Aucun piège au paiement.",
       title: "Ceci est un simulateur de shopping, pas une boutique.",
       body: "Chaque article, solde et reçu ici est fictif. Le but est de laisser l'impulsion se terminer sans devenir une vraie commande.",
+    },
+    footer: {
+      credits: "Images des produits générées avec SDXL-Turbo. Powered by Stability AI.",
     },
     faq: {
       aria: "Questions fréquentes",
