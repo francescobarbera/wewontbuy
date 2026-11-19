@@ -1097,6 +1097,56 @@ main {
   }
 }
 
+/* Standalone article pages ------------------------------------------------ */
+
+.article-page {
+  padding-top: 88px;
+}
+
+@media (width <= 820px) {
+  .article-page {
+    padding-top: 0;
+  }
+}
+
+.article-page .article-hero h1 {
+  margin: 0;
+  max-width: 680px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: clamp(2.1rem, 4.6vw, 4.8rem);
+  line-height: 0.98;
+}
+
+.article-page .article-copy {
+  display: grid;
+  gap: 16px;
+}
+
+.article-page .article-copy ol,
+.article-page .article-copy ul {
+  margin: 0;
+  padding-left: 1.25em;
+  color: var(--muted);
+  font-size: clamp(1rem, 1.6vw, 1.18rem);
+  line-height: 1.65;
+}
+
+.article-page .article-copy li + li {
+  margin-top: 12px;
+}
+
+.article-page .article-copy a {
+  text-decoration-thickness: 1px;
+}
+
+.article-page .cta-band {
+  display: grid;
+  gap: 22px;
+  justify-items: start;
+}
+
 /* Cart drawer ------------------------------------------------------------- */
 
 .cart-drawer {

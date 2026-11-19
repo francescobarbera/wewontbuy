@@ -21,6 +21,10 @@ export function prerenderApp() {
     apply: "build",
     transformIndexHtml(html, { filename }) {
       const occurrences = html.split(placeholder).length - 1;
+      // Static article pages have their own markup and must not receive the shop.
+      if (occurrences === 0) {
+        return html;
+      }
       if (occurrences !== 1) {
         throw new Error(`${filename}: expected exactly one empty ${placeholder}, found ${occurrences}.`);
       }

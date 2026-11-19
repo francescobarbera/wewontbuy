@@ -40,6 +40,7 @@ test.describe("without JavaScript", () => {
     const sitemap = await request.get("/sitemap.xml");
     expect(sitemap.ok()).toBe(true);
     expect(await sitemap.text()).toContain("<loc>https://wewontbuy.com/</loc>");
+    expect(await sitemap.text()).toContain("<loc>https://wewontbuy.com/how-to-stop-impulse-shopping/</loc>");
   });
 });
 

@@ -15,6 +15,10 @@ export default defineConfig({
         receipt: resolve(import.meta.dirname, "go/receipt/index.html"),
         ritual: resolve(import.meta.dirname, "go/ritual/index.html"),
         privacy: resolve(import.meta.dirname, "go/privacy/index.html"),
+        howToStopImpulseShopping: resolve(
+          import.meta.dirname,
+          "how-to-stop-impulse-shopping/index.html",
+        ),
       },
     },
   },
